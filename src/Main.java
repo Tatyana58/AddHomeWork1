@@ -17,7 +17,7 @@ public class Main {
         byte d=15;
         byte e=9;
         short result= (short) (a*(b+(c-(d*e))));
-        System.out.println("Результат вычисления : "+result);
+        System.out.println("Результат вычисления                : "+result);
         result= (short) -result;
         System.out.println("Результат с противоположным знанием : "+result);
         System.out.println("");
@@ -29,13 +29,13 @@ public class Main {
         System.out.println("Задание 7");
         byte a7=5;
         byte b7=7;
-        System.out.println("a = : "+a7);
-        System.out.println("b = : "+b7);
+        System.out.println("Дано a = : "+a7);
+        System.out.println("Дано b = : "+b7);
         b7 -=a7;
         a7 +=b7;
-        System.out.println("Результат вычисления a=  : "+a7);
+        System.out.println("Результат манипуляций a= : "+a7);
         b7 = (byte) (a7-b7);
-        System.out.println("Результат вычисления b= : "+b7);
+        System.out.println("Результат манипуляций b= : "+b7);
         System.out.println("");
 
         //Задача 8
@@ -50,7 +50,7 @@ public class Main {
         // прибавить к a для корректного значения в b нельзя,
         // так как при каждом изменении значения в a её нужно пересчитывать.
         System.out.println("Задание 8");
-        float a8=134f;
+        float a8=471f;
         float b8=a8;
         System.out.println("Дана переменная а = "+Math.round (a8));
         a8-=b8%10;
